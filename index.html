@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Account Creator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&
+        display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/31316654e3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>LOGO</h1>
+        </div>
+    </header>
+    <div class="sign-in">
+        <h1>Sign-in</h1>
+        <form>
+            <p>Email or mobile phone number</p>
+            <input type="email" name="email" id="email">
+            <button>Continue</button>
+        </form>
+        <p class="notice">By continuing, you agree to Amazon's 
+            <a href="https://www.amazon.com/gp/help/customer/
+            display.html?nodeId=GLSBYFE9MGKKQXXM">Conditions of Use</a> and
+        <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=
+        GX7NJQ4ZB8MHFRNJ">Privacy Notice</a>.</p>
+
+
+        <div class="helper">
+            <div class="need_help">
+                <p><i class="fa fa-play"></i><a href="#">Need Help?</a> </p>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="seperator">
+        <div class="line"></div>
+        <p>New to Amazon?</p>
+        <div class="line"></div>
+    </div>
+    <button class="new_account">Create your Amazon account</button>
+    <footer>
+        <div class="border"></div>
+        <div class="conditions">
+            <p><a href="#">Conditions of Use</a></p>
+            <p><a href="#">Privacy Notice</a></p>
+            <p><a href="#">Help</a></p>
+        </div>
+        <p>&copy; 1996-2022, mock-site-project-don't-suspend-me.inc</p>
+    </footer>
+
+    <script>
+        $('div').on('click', function() {
+            $(this).toggleClass('show-help');
+        });
+    </script>
+
+
+
+
+</body>
+</html>
