@@ -4,9 +4,9 @@ body{
     align-items: center;
     font-family: 'Ubuntu', sans-serif;
 }
-.logo{
-    background-color: black;
-    color: orange;
+.logo img{
+    width: 360px;
+    border-radius: 10px;
 }
 .sign-in{
     border: 1px solid rgb(209, 209, 209);
@@ -38,13 +38,13 @@ form > button{
     margin-top: 13px;
     width: 100%;
     height: 30px;
-    background: linear-gradient(rgb(250, 222, 132),rgb(235, 187, 55));
+    background: linear-gradient(45deg,rgb(187, 132, 250),rgb(235, 208, 55));
     border-radius: 3px;
     border: 1px solid rgb(196, 164, 105);
     font-family: 'Ubuntu', sans-serif;
 }
 form > button:hover{
-    background: linear-gradient(rgb(250, 222, 132),rgb(221, 162, 1));
+    background: linear-gradient(45deg,rgb(235, 208, 55),rgb(187, 132, 250));
 }
 .notice{
     margin-top: 15px;
